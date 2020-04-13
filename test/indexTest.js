@@ -43,4 +43,9 @@ describe('index.js', function () {
       expect(js).not.to.match(/const companyCeo/, "Expected companyCeo not to be a const");
     });
   });
+  describe('myVar', function () {
+    it('is set equal to Pedro', function () {
+      expect(myVar).to.equal('Pedro');
+    });
+  });
 });
